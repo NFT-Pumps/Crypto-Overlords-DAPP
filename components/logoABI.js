@@ -1172,14 +1172,14 @@ export default function ContractABI() {
       {
          "inputs":[
             {
-               "internalType":"uint256",
+               "internalType":"uint8",
                "name":"quantity",
-               "type":"uint256"
+               "type":"uint8"
             },
             {
-               "internalType":"uint256",
+               "internalType":"uint8",
                "name":"claimable",
-               "type":"uint256"
+               "type":"uint8"
             },
             {
                "components":[
@@ -1199,7 +1199,7 @@ export default function ContractABI() {
                      "type":"uint8"
                   }
                ],
-               "internalType":"struct HaywireHorseyNFT.WhitelistClaimPass",
+               "internalType":"struct TheCryptoOverlords.WhitelistClaimPass",
                "name":"whitelistClaimPass",
                "type":"tuple"
             }
